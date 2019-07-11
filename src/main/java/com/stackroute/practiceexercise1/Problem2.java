@@ -16,7 +16,7 @@ public class Problem2 {
             }
         }
         else {
-            System.out.println("Not exist between 20 and 30");
+            System.out.println("Not in between 20 and 30");
         }
     }
 
