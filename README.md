@@ -46,3 +46,23 @@ character entered is a capital letter, a small case letter, a digit or a special
 appropriately.
 Input: A
 Output: Capital letter
+
+
+7. Write a program which accepts a number as input from user and perform the following:
+a. sort the number in non-increasing order
+b. after sorting sum all the even numbers, the sum should be greater than 15 .
+c. if sum is more than 15,then print output as true or false.
+Input : 234534
+Output : Sorted number in non-increasing order : 544332
+
+Sum of even numbers : 10
+False
+
+
+
+8. Write a program which accepts a number from user as input (set the limit say 1 - 50 or 1 -
+100) User should guess until the the target number is guessed correctly.
+Print separate messages for the following:
+a. Number guessed is more than original number
+b. Number guessed is less than original number
+c. Number guessed matches the original number
