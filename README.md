@@ -14,3 +14,15 @@ Output : 12345654321 is palindrome and sum of even numbers is less than 25
 following conditional checks:
 a. Print Tom if number is odd and exists between 20 to 30
 b. Print Jerry, if number is even and exists between 20 and 30
+
+3. Create a program that accepts a word as input and checks for each single character letter in
+the word whether it is a consonant or vowel.
+Condition:
+a. Print an error message if the input is not a letter
+b. If the input having more than one letter, print the required output
+(Vowel or Consonant) for each letter
+Input : p
+Output : Consonant
+Input : ap
+Output : Vowel Consonant (should it be a - vowel, p - consonant)
+-------------------------------------------------------------------------------------------------------------------------
