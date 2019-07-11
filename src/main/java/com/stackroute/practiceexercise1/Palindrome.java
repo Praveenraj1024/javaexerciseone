@@ -1,25 +1,23 @@
 package com.stackroute.practiceexercise1;
 
-
 import java.util.Scanner;
 import java.lang.*;
 
-public class Problem1 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        long inputNum = scanner.nextLong();
+public class Palindrome  {
+    public String palindromeSum(long inputNum){
+        String returnResult = "Not a palindrome";
         if (isPalindrome(inputNum)) {
             if ( (isSumOfEvenNum(inputNum) > 25) ) {
-                System.out.println(inputNum +" is palindrome and greater than 25");
+                returnResult = "Palindrome and greater than 25";
             }
             else {
-                System.out.println(inputNum + "is palindrome and smaller than 25");
+                returnResult = "Palindrome and smaller than 25";
             }
         }
-        else System.out.println("Not a palindrome");
+        return returnResult;
     }
 
-    private static boolean isPalindrome(long number){
+    private boolean isPalindrome(long number){
         String str = "";
         String stringNum = String.valueOf(number);
         boolean boo = false;
@@ -30,7 +28,7 @@ public class Problem1 {
         return boo;
     }
 
-    private static int isSumOfEvenNum(long number){
+    private int isSumOfEvenNum(long number){
         int sumOfEvenNum = 0;
         long localNumber = number;
         while (localNumber > 0){
