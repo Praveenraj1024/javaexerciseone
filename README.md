@@ -66,3 +66,7 @@ Print separate messages for the following:
 a. Number guessed is more than original number
 b. Number guessed is less than original number
 c. Number guessed matches the original number
+
+9. Write a program to reverse any string without using String Buffer.
+Input : london
+Output : nodnol
