@@ -32,3 +32,17 @@ Output : Vowel Consonant (should it be a - vowel, p - consonant)
 Input: 5
 Output : 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5
 
+
+5. Write a program that reads an unspecified number of integer arguments using Scanner Class
+and adds them together. The program should display total of the given input number and should
+only consider integer value.The program should display an error message if there are any non
+integer values
+Input : 12 23 2 4
+Output : 41
+
+
+6. Write a program that takes a character from the user as input and determines whether the
+character entered is a capital letter, a small case letter, a digit or a special symbol and display
+appropriately.
+Input: A
+Output: Capital letter
