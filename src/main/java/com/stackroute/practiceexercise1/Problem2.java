@@ -22,7 +22,7 @@ public class Problem2 {
 
     private static boolean isBetween20And30(int num){
         boolean boo = false;
-        if ( (num >= 20) && (num <= 30) ){
+        if ( (num > 20) && (num < 30) ){
             boo = true;
         }
         return boo;
