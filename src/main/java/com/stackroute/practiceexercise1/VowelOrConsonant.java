@@ -2,29 +2,26 @@ package com.stackroute.practiceexercise1;
 
 import java.util.Scanner;
 
-public class Problem3 {
-    public static void main(String[] arg){
-        Scanner scanner = new Scanner(System.in);
-        String inputString = scanner.next();
-        vowelOrConsonant(inputString);
-    }
+public class VowelOrConsonant {
     
-    private static void vowelOrConsonant(String string){
+    public String[] vowelOrConsonantChecker(String string){
+        String[] returnResult = new String[string.length()];
         for(int i = 0; i <= string.length() - 1; i++){
             char ch = string.charAt(i);
             if(Character.isAlphabetic(ch)){
                 if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E'
                     || ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O'
                     || ch == 'u' || ch == 'U'){
-                    System.out.println("Vowel");
+                    returnResult[i] = "Vowel";
                 }
                 else {
-                    System.out.println("Consonant");
+                    returnResult[i] = "Consonant";
                 }
             }
-            else{
-                System.out.println("Not a letter");
+            else {
+                returnResult[i] = "Not a letter";
             }
         }
+        return returnResult;
     }
 }
