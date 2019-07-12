@@ -42,7 +42,7 @@ public class CharacterTypeTest {
     @Test
     public void givenCharacterShouldReturnSpecialSymbol() {
         //act
-        String actualResult = this.characterType.letterChecker('%');
+        String actualResult = this.characterType.letterChecker('*');
         //assert
         assertEquals("Special symbol", actualResult);
     }

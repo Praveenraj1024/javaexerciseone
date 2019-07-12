@@ -1,7 +1,6 @@
 package com.stackroute.practiceexercise1;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class IntegerDigitSum {
     public boolean sortedSumOfInteger(int inputInteger){
@@ -21,7 +20,7 @@ public class IntegerDigitSum {
         return boo;
     }
 
-    private static int[] sortedArray(String strAr){
+    public int[] sortedArray(String strAr){
         int[] ar = new int[strAr.length()];
         int[] ar1 = new int[strAr.length()];
         for (int i = 0; i < strAr.length(); i++){
