@@ -35,7 +35,7 @@ public class VowelOrConsonantTest {
         String[] actualResult = this.vowelOrConsonant.vowelOrConsonantChecker("ag2");
         //assert
         String[] expected = {"Vowel", "Consonant", "Not a letter"};
-        assertEquals(expected, actualResult);
+        assertArrayEquals(expected, actualResult);
 //        assertEquals(expected, actualResult);
     }
 }
