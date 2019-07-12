@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c68b273-80cb-4b5c-9d5e-3e6a5bfb6773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/NthLoopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/NthLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/PalindromeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="279">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/NthLoopTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="41" selection-end-column="58" />
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
               <folding>
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
@@ -155,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem9.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem10.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem5.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/JunitDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem1.java" />
@@ -173,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Pattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/NthLoop.java" />
         <option value="$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/NthLoopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem5.java" />
+        <option value="$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValue.java" />
       </list>
     </option>
   </component>
@@ -294,8 +304,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NthLoopTest.givenNumberShouldReturnAnOutOfMemoryError">
-    <configuration name="NthLoopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IntegerAndNonIntegerValueTest">
+    <configuration name="IntegerAndNonIntegerValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -304,13 +314,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.NthLoopTest" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.IntegerAndNonIntegerValueTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthLoopTest.givenNumberShouldReturnAnArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAErrorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.practiceexercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.IntegerAndNonIntegerValueTest" />
+      <option name="METHOD_NAME" value="givenStringShouldReturnAErrorMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnATotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.practiceexercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.IntegerAndNonIntegerValueTest" />
+      <option name="METHOD_NAME" value="givenStringShouldReturnATotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.practiceexercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.IntegerAndNonIntegerValueTest" />
+      <option name="METHOD_NAME" value="givenStringShouldReturnAZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthLoopTest.givenNumberShouldReturnAnEmptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -320,74 +378,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.NthLoopTest" />
-      <option name="METHOD_NAME" value="givenNumberShouldReturnAnArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NthLoopTest.givenNumberShouldReturnAnArrayOfLengthOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.practiceexercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.NthLoopTest" />
-      <option name="METHOD_NAME" value="givenNumberShouldReturnAnArrayOfLengthOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NthLoopTest.givenNumberShouldReturnAnOutOfMemoryError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.practiceexercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.NthLoopTest" />
-      <option name="METHOD_NAME" value="givenNumberShouldReturnAnOutOfMemoryError" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.practiceexercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute.practiceexercise1" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.practiceexercise1.VowelOrConsonantTest" />
-      <option name="METHOD_NAME" value="givenStringShouldReturnAnArrayWithAllPossibleResult" />
+      <option name="METHOD_NAME" value="givenNumberShouldReturnAnEmptyArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" />
-      <item itemvalue="JUnit.NthLoopTest" />
-      <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnArray" />
-      <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnArrayOfLengthOne" />
-      <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnOutOfMemoryError" />
+      <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnEmptyArray" />
+      <item itemvalue="JUnit.IntegerAndNonIntegerValueTest.givenStringShouldReturnATotal" />
+      <item itemvalue="JUnit.IntegerAndNonIntegerValueTest.givenStringShouldReturnAErrorMessage" />
+      <item itemvalue="JUnit.IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" />
+      <item itemvalue="JUnit.IntegerAndNonIntegerValueTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnOutOfMemoryError" />
-        <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnArrayOfLengthOne" />
-        <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnArray" />
-        <item itemvalue="JUnit.NthLoopTest" />
-        <item itemvalue="JUnit.VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" />
+        <item itemvalue="JUnit.IntegerAndNonIntegerValueTest" />
+        <item itemvalue="JUnit.IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" />
+        <item itemvalue="JUnit.IntegerAndNonIntegerValueTest.givenStringShouldReturnAErrorMessage" />
+        <item itemvalue="JUnit.IntegerAndNonIntegerValueTest.givenStringShouldReturnATotal" />
+        <item itemvalue="JUnit.NthLoopTest.givenNumberShouldReturnAnEmptyArray" />
       </list>
     </recent_temporary>
   </component>
@@ -542,39 +552,53 @@
       <option name="project" value="LOCAL" />
       <updated>1562895884829</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Tester for VowelOrConsonant class is completed">
+      <created>1562897637999</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562897637999</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Test case for NthLoop class is created">
+      <created>1562897856695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1562897856695</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VowelOrConsonantTest_givenStringShouldReturnAnArrayWithAllPossibleResult - 2019.07.12 at 07h 13m 28s.xml">
-      <configuration name="VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" configurationId="JUnit" />
+    <history-entry file="NthLoopTest_givenNumberShouldReturnAnEmptyArray - 2019.07.12 at 07h 46m 52s.xml">
+      <configuration name="NthLoopTest.givenNumberShouldReturnAnEmptyArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelOrConsonantTest_givenStringShouldReturnAnArrayWithAllPossibleResult - 2019.07.12 at 07h 13m 41s.xml">
-      <configuration name="VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnATotal - 2019.07.12 at 08h 03m 13s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnATotal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelOrConsonantTest_givenStringShouldReturnAnArrayWithAllPossibleResult - 2019.07.12 at 07h 13m 49s.xml">
-      <configuration name="VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAErrorMessage - 2019.07.12 at 08h 04m 13s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAErrorMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelOrConsonantTest_givenStringShouldReturnAnArrayWithAllPossibleResult - 2019.07.12 at 07h 38m 56s.xml">
-      <configuration name="VowelOrConsonantTest.givenStringShouldReturnAnArrayWithAllPossibleResult" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 06m 21s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NthLoopTest - 2019.07.12 at 07h 39m 14s.xml">
-      <configuration name="NthLoopTest" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 07m 45s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NthLoopTest - 2019.07.12 at 07h 39m 29s.xml">
-      <configuration name="NthLoopTest" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 08m 23s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NthLoopTest - 2019.07.12 at 07h 40m 17s.xml">
-      <configuration name="NthLoopTest" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 09m 12s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NthLoopTest_givenNumberShouldReturnAnArray - 2019.07.12 at 07h 40m 31s.xml">
-      <configuration name="NthLoopTest.givenNumberShouldReturnAnArray" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 09m 52s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NthLoopTest_givenNumberShouldReturnAnArrayOfLengthOne - 2019.07.12 at 07h 41m 10s.xml">
-      <configuration name="NthLoopTest.givenNumberShouldReturnAnArrayOfLengthOne" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 10m 50s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NthLoopTest_givenNumberShouldReturnAnArrayOfLengthOne - 2019.07.12 at 07h 42m 04s.xml">
-      <configuration name="NthLoopTest.givenNumberShouldReturnAnArrayOfLengthOne" configurationId="JUnit" />
+    <history-entry file="IntegerAndNonIntegerValueTest_givenStringShouldReturnAZero - 2019.07.12 at 08h 11m 33s.xml">
+      <configuration name="IntegerAndNonIntegerValueTest.givenStringShouldReturnAZero" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -629,7 +653,8 @@
     <MESSAGE value="Tester for Palindrome is completed" />
     <MESSAGE value="Tester for TomAndJerry class is completed" />
     <MESSAGE value="Tester for VowelOrConsonant class is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tester for VowelOrConsonant class is completed" />
+    <MESSAGE value="Test case for NthLoop class is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case for NthLoop class is created" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem6.java">
@@ -670,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/Problem5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -788,10 +806,27 @@
     <entry file="file://$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/NthLoopTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="41" selection-end-column="58" />
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
           <folding>
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/java/com/stackroute/practiceexercise1/IntegerAndNonIntegerValueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
