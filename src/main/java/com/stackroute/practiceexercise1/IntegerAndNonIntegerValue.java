@@ -1,6 +1,5 @@
 package com.stackroute.practiceexercise1;
 
-import java.util.Scanner;
 
 public class IntegerAndNonIntegerValue {
     public String  sumOfIntegerValue(String inputStringNumbers){
@@ -12,7 +11,6 @@ public class IntegerAndNonIntegerValue {
                 if ( (!(Character.isDigit(str.charAt(i)))) &&
                         (str.charAt(i) != '-') &&
                         (str.charAt(i) != '+')){
-                    System.out.println(str.charAt(i));
                     boo = false;
                 }
 
