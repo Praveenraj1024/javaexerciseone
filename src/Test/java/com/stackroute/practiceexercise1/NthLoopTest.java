@@ -27,7 +27,7 @@ public class NthLoopTest {
     @Test
     public void givenNumberShouldReturnAnArrayOfLengthOne() {
         //act
-        int[] actualResult = this.nthLoop.printer(100000000);
+        int[] actualResult = this.nthLoop.printer(1);
         //assert
         int[] expectedResult = {1};
         assertArrayEquals(expectedResult, actualResult);
@@ -38,5 +38,15 @@ public class NthLoopTest {
         //act
         int[] actualResult = this.nthLoop.printer(100000000);
     }
+
+    @Test
+    public void givenNumberShouldReturnAnEmptyArray() {
+        //act
+        int[] actualResult = this.nthLoop.printer(0);
+        //assert
+        int[] expectedResult = {};
+        assertArrayEquals(expectedResult, actualResult);
+    }
+
 
 }
