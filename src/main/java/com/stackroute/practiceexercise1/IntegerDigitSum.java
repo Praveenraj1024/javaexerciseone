@@ -3,19 +3,14 @@ package com.stackroute.practiceexercise1;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Problem7 {
-    public static void main(String[] arg){
-        Scanner scanner = new Scanner(System.in);
-        String inputNumString = scanner.next();
-        System.out.println(sortingSum(inputNumString));
-    }
-
-    private static boolean sortingSum(String str){
+public class IntegerDigitSum {
+    public boolean sortedSumOfInteger(int inputInteger){
+        String inputIntegerInString = String.valueOf(inputInteger);
         boolean boo = false;
-        int[] ar;
+        int[] arrayOfSortedDigits;
         int sum = 0;
-        ar = sortedArray(str);
-        for (int num: ar) {
+        arrayOfSortedDigits = sortedArray(inputIntegerInString);
+        for (int num: arrayOfSortedDigits) {
             if (num % 2 == 0){
                 sum += num;
             }
