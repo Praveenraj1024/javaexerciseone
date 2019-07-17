@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class CharacterType {
     public String letterChecker(char inputCharacter){
+        /*
+        Returns the Character type of the passed Character like
+        (Digit, Special Symbol, Capital letter, Lowercase letter).
+         */
         String letterType = "";
         if (Character.isAlphabetic(inputCharacter)) {
             if (Character.isUpperCase(inputCharacter)) {

@@ -1,5 +1,6 @@
 package com.stackroute.practiceexercise1;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +11,18 @@ public class VowelOrConsonantTest {
 
     @Before
     public void setUp() {
+        /*
+        This method runs before each and every test cases
+         */
         this.vowelOrConsonant = new VowelOrConsonant();
+    }
+
+    @After
+    public void tearDown() {
+        /*
+        This method runs after every test cases.
+         */
+        vowelOrConsonant = null;
     }
 
     @Test

@@ -5,6 +5,13 @@ import java.lang.*;
 
 public class Palindrome  {
     public String palindromeSum(long inputNum){
+        /*
+        Checks whether the received number is palindrome or not.
+        If it is palindrome, then it checks whether the sum of even digits are greater
+        than 25 or not. I yes, returns "Palindrome and greater than 25" else returns
+        "Palindrome and smaller than 25"
+        If it is not a palindrome, then this method will return Not a palindrome.
+         */
         String returnResult = "Not a palindrome";
         if (isPalindrome(inputNum)) {
             if ( (isSumOfEvenNum(inputNum) > 25) ) {
@@ -18,6 +25,9 @@ public class Palindrome  {
     }
 
     private boolean isPalindrome(long number){
+        /*
+        Checks whether the accepted number is palindrome or not.
+         */
         String str = "";
         String stringNum = String.valueOf(number);
         boolean boo = false;
@@ -29,6 +39,9 @@ public class Palindrome  {
     }
 
     private int isSumOfEvenNum(long number){
+        /*
+        Returns the sum of Even Digits.
+         */
         int sumOfEvenNum = 0;
         long localNumber = number;
         while (localNumber > 0){

@@ -3,8 +3,11 @@ package com.stackroute.practiceexercise1;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Problem8 {
+public class GuessTheNumber {
     public static void main(String[] arg){
+        /*
+        This method continues the loop until the user guesses the correct number.
+         */
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         System.out.println("Enter a number to guess the target number");

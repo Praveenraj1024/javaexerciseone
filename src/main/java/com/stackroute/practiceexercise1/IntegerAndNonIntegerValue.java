@@ -3,6 +3,11 @@ package com.stackroute.practiceexercise1;
 
 public class IntegerAndNonIntegerValue {
     public String  sumOfIntegerValue(String inputStringNumbers){
+        /*
+        Accepts the Numbers as String.
+        If all the numbers are valid then returns the sum of it.
+        Else return "Non integer value".
+         */
         String[] arrayOfStringNumber = inputStringNumbers.split(" ");
         boolean boo = true;
         int sum = 0;

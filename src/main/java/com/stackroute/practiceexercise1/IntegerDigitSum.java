@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class IntegerDigitSum {
     public boolean sortedSumOfInteger(int inputInteger){
+        /*
+        First sort the Integer digits in desc order.
+        If the sum of the digits is grater than 15 then it will return true else false.
+         */
         String inputIntegerInString = String.valueOf(inputInteger);
         boolean boo = false;
         int[] arrayOfSortedDigits;
@@ -21,6 +25,9 @@ public class IntegerDigitSum {
     }
 
     public int[] sortedArray(String strAr){
+        /*
+        Sort the Integer digits in desc order and returns it.
+         */
         int[] ar = new int[strAr.length()];
         int[] ar1 = new int[strAr.length()];
         for (int i = 0; i < strAr.length(); i++){

@@ -2,7 +2,7 @@ package com.stackroute.practiceexercise1;
 
 import java.util.Scanner;
 
-public class Problem10 {
+public class SubString {
     public static void main(String[] arg){
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.next();
@@ -11,6 +11,9 @@ public class Problem10 {
     }
 
     private static void printer(String str, int len){
+        /*
+        Prints the subString given number of times.
+         */
         String subString = str.substring((str.length() - len));
         System.out.print(str);
         for (int i = 1; i <= len; i++){

@@ -1,10 +1,12 @@
 package com.stackroute.practiceexercise1;
 
-import java.util.Scanner;
 
-public class NthLoop {
+public class Looping {
 
     public int[] printer(int num){
+        /*
+        Used to print the pattern like printing the nth number n number of times.
+         */
         int size = 0;
         int index = 0;
         for (int i = 1; i <= num; i++) size += i;

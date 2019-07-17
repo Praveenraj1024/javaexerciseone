@@ -1,5 +1,6 @@
 package com.stackroute.practiceexercise1;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,8 +11,19 @@ public class PalindromeTest {
 
     @Before
     public void setUp(){
+        /*
+        This method runs before each and every test cases
+         */
         //arrange
         this.palindrome = new Palindrome();
+    }
+
+    @After
+    public void tearDown() {
+        /*
+        This method runs after every test cases.
+         */
+        palindrome = null;
     }
 
     @Test
